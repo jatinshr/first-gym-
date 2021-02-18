@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first website</title>
+    <style>
+        body {
+            background: url('img/milky_way_galaxy_lake_light-852x480.jpg');
+            background-size: cover;
+            color: azure;
+        }
+
+        .left img {
+            margin: auto;
+            display: block;
+        }
+
+        .left div {
+            padding: 2px 3px;
+            margin: 2px auto;
+            font-size: 30px;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline;
+            position: absolute;
+            top: 20px;
+            left: 35px;
+
+
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            width: 33%;
+            margin: 52px auto;
+
+
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline;
+            position: absolute;
+            top: 20px;
+            right: 35px;
+        }
+
+        .navbar {
+            display: inline;
+
+        }
+
+        .navbar li {
+            display: inline;
+            font-size: 22px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: azure;
+            margin: 6px 9px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(49, 105, 105);
+            font-weight: 500;
+        }
+
+        .btn {
+            display: block;
+            background-color: black;
+            color: azure;
+            font-size: 22px;
+            margin: 5px;
+            padding: 6px 8px;
+            border: none;
+            cursor: pointer;
+            border-radius: 32px;
+        }
+        .btn:hover{
+            background-color: rgba(3, 1, 1, 0.548);
+            color: blanchedalmond;
+        }
+        .container{
+            position: absolute;
+            top: 210px;
+            left: 490px;
+            width: 27%;  
+            margin: auto;
+            padding: 5px 20px;
+            border: 2px solid blanchedalmond;  
+            border-radius: 13px;  
+        }
+
+        input{
+            width: 98%;
+            margin: 4px auto;
+            padding: 6px 0px;
+            font-size: 19px;
+            text-align: center;
+            border: none;
+            border-radius: 32px;
+            background-color: blanchedalmond;
+        }
+
+        .container div button{
+            margin: 30px auto;
+            padding: 10px 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/Mcafee.ico" alt="">
+            <div class="title">
+                Security Point
+            </div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Mail us</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-group">
+            <form action="action.php">
+                <div>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div>
+                    <input type="text" placeholder="Package">
+                </div>
+                <div>
+                    <input type="text" placeholder="Age">
+                </div>
+                <div>
+                    <input type="text" placeholder="Feedback">
+                </div>
+                <div>
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+
+</html>
